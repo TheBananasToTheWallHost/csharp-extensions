@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>BananaTurtles.CSharp.Extensions</PackageId>
+    <PackageVersion>1.0.0.0</PackageVersion>
+    <Authors>Ryan Mileris</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectURL>https://github.com/TheBananasToTheWallHost/csharp-extensions</PackageProjectURL>
+    <PackageReleaseNotes>Library with a collection of useful extensions for various classes.</PackageReleaseNotes>
+    <PackageTags>extension cs</PackageTags>
   </PropertyGroup>
 
 </Project>
