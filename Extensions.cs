@@ -1,6 +1,6 @@
 using System;
 
-namespace CSharpExtensions
+namespace BananaTurtles.CSharp.Extensions
 {
     public static partial class Extensions
     {
