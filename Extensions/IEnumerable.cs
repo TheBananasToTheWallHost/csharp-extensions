@@ -5,7 +5,7 @@ namespace BananaTurtles.CSharp.Extensions
 {
     public static partial class Extensions
     {
-        public static bool IsSorted<T>(IEnumerable<T> enumerable) where T : IComparable<T>{
+        public static bool IsSorted<T>(this IEnumerable<T> enumerable) where T : IComparable<T>{
             IEnumerator<T> enumerator = enumerable.GetEnumerator();
 
             if(!enumerator.MoveNext()){
