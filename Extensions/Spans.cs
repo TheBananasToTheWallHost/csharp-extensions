@@ -34,5 +34,14 @@ namespace BananaTurtles.CSharp.Extensions
             span[selfIndex] = otherSpan[otherIndex];
             otherSpan[otherIndex] = temp;
         }
+
+        public static bool IsSorted<T>(this Span<T> span) where T : IComparable<T> {
+            for (int i = 0; i < span.Length - 1; i++) {
+                if (span[i].CompareTo(span[i + 1]) > 0) {
+                    return false;
+                }
+            }
+            return true;
+        }
     }
 }
